@@ -14,16 +14,15 @@
 
 <details closed><summary>Graph Attention Network (GAT)</summary>
 
-| File                                                                                                                                       | Summary                                                                                                                                                                                                                                                                                                   |
-| ---                                                                                                                                        | ---                                                                                                                                                                                                                                                                                                       |
-| [Antibacterials.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb)                                 | Prompt exceeds max token limit: 55634.                                                                                                                                                                                                                                                                    |
-| [hyper_parameter_search_Solubility.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/hyper_parameter_search_Solubility.py) | HTTPStatus Exception: 429                                                                                                                                                                                                                                                                                 |
-| [getFeatures.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/getFeatures.py)                               | HTTPStatus Exception: 429 |
-| [AttentiveLayers_viz.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers_viz.py)               | HTTPStatus Exception: 429 |
-| [AttentiveLayers.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers.py)                       | HTTPStatus Exception: 429 |
-| [Featurizer.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/Featurizer.py)                                 | HTTPStatus Exception: 429 |
-| [Featurizer_aromaticity_rm.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/Featurizer_aromaticity_rm.py)   | HTTPStatus Exception: 429 |
-| [getFeatures_aromaticity_rm.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/getFeatures_aromaticity_rm.py) | HTTPStatus Exception: 429 |
+| File                                                                                                                                       | Summary                                                                                                               
+| [Antibacterials.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb)                                 | Prompt exceeds max token limit: 55634|                                                                                
+| [hyper_parameter_search_Solubility.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/hyper_parameter_search_Solubility.py) | HTTPStatus Exception: 429 |                                                                                           
+| [getFeatures.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/getFeatures.py)                                 | HTTPStatus Exception: 429 |
+| [AttentiveLayers_viz.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers_viz.py)                 | HTTPStatus Exception: 429 |
+| [AttentiveLayers.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers.py)                         | HTTPStatus Exception: 429 |
+| [Featurizer.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/Featurizer.py)                                   | HTTPStatus Exception: 429 |
+| [Featurizer_aromaticity_rm.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/Featurizer_aromaticity_rm.py)     | HTTPStatus Exception: 429 |
+| [getFeatures_aromaticity_rm.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/getFeatures_aromaticity_rm.py)   | HTTPStatus Exception: 429 |
 
 </details>
 
@@ -35,7 +34,7 @@
 
 </details>
 
-<details closed><summary>eXtreme Gradient Boosting (Xgboost)</summary>
+<details closed><summary>eXtreme Gradient Boosting (XGBoost)</summary>
 
 | File                                                                                        | Summary                                  |
 | ---                                                                                         | ---                                      |

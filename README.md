@@ -1,13 +1,9 @@
 <div align="center">
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" />
 <br>Persistent quaternary ammonium compounds in Chinese estuaries as key drivers of environmental resistome beyond antibiotics
 </h1>
-<h3>◦ HTTPStatus Exception: 429</h3>
-<h3>◦ Developed with the software and tools below.</h3>
 
 <p align="center">
-<img src="https://img.shields.io/badge/SVG-FFB13B.svg?style&logo=SVG&logoColor=black" alt="SVG" />
 <img src="https://img.shields.io/badge/Jupyter-F37626.svg?style&logo=Jupyter&logoColor=white" alt="Jupyter" />
 <img src="https://img.shields.io/badge/Python-3776AB.svg?style&logo=Python&logoColor=white" alt="Python" />
 <img src="https://img.shields.io/badge/Docker-2496ED.svg?style&logo=Docker&logoColor=white" alt="Docker" />
@@ -15,7 +11,6 @@
 </p>
 <img src="https://img.shields.io/github/languages/top/WestonSu/Antimicrobials?style&color=5D6D7E" alt="GitHub top language" />
 <img src="https://img.shields.io/github/languages/code-size/WestonSu/Antimicrobials?style&color=5D6D7E" alt="GitHub code size in bytes" />
-<img src="https://img.shields.io/github/commit-activity/m/WestonSu/Antimicrobials?style&color=5D6D7E" alt="GitHub commit activity" />
 <img src="https://img.shields.io/github/license/WestonSu/Antimicrobials?style&color=5D6D7E" alt="GitHub license" />
 </div>
 

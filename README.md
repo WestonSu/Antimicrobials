@@ -179,11 +179,11 @@ This project is licensed under the `ℹ️  LICENSE-TYPE` License. See the [LICE
 
 ## Citations <a name="citations"></a>  
 
-We ask users to cite [MIST](https://www.nature.com/articles/s42256-023-00708-3) directly by referencing the following paper:
+We ask users to cite ****** directly by referencing the following paper:
 
-Goldman, S., Wohlwend, J., Stražar, M. et al. Annotating metabolite mass spectra with domain-inspired chemical formula transformers. Nat Mach Intell (2023). https://doi.org/10.1038/s42256-023-00708-3   
+Su, W. et al. Persistent quaternary ammonium compounds in Chinese estuaries as key drivers of environmental resistome beyond antibiotics.
 
-MIST also builds on a number of other projects, ideas, and software including SIRIUS, MAGMa substructure labeling, the canopus\_train data, the Mills et al. IBD data, NPClassifier to classify compounds, PubChem as a retrieval library, and HMDB as a retrieval library. Please consider citing the following full list of papers when relevant:  
+*** also builds on a number of other projects, ideas, and software including ******. Please consider citing the following full list of papers when relevant:  
 
 1. Stokes, J. M. et al. A deep learning approach to antibiotic discovery. Cell 180, 688–702.e613 (2020).
 2. Yang, K. et al. Analyzing learned molecular representations for property prediction. J. Chem. Inf. Model. 59, 3370–3388 (2019).

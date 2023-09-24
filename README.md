@@ -1,19 +1,89 @@
-<div align="center">
-<h1 align="center">
-<br>Persistent quaternary ammonium compounds in Chinese estuaries as key drivers of environmental resistome beyond antibiotics
-</h1>
-
-<p align="center">
+# Persistent quaternary ammonium compounds in Chinese estuaries as key drivers of environmental resistome beyond antibiotics
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8305808.svg)](https://doi.org/10.5281/zenodo.8305808)
+<p align="left">
 <img src="https://img.shields.io/badge/Jupyter-F37626.svg?style&logo=Jupyter&logoColor=white" alt="Jupyter" />
 <img src="https://img.shields.io/badge/Python-3776AB.svg?style&logo=Python&logoColor=white" alt="Python" />
 <img src="https://img.shields.io/badge/Docker-2496ED.svg?style&logo=Docker&logoColor=white" alt="Docker" />
 <img src="https://img.shields.io/badge/Markdown-000000.svg?style&logo=Markdown&logoColor=white" alt="Markdown" />
-</p>
-<img src="https://img.shields.io/github/languages/top/WestonSu/Antimicrobials?style&color=5D6D7E" alt="GitHub top language" />
-<img src="https://img.shields.io/github/languages/code-size/WestonSu/Antimicrobials?style&color=5D6D7E" alt="GitHub code size in bytes" />
 <img src="https://img.shields.io/github/license/WestonSu/Antimicrobials?style&color=5D6D7E" alt="GitHub license" />
-</div>
+</p>
 
+
+---
+## 📂 Repository Structure
+
+<details closed><summary>Graph Attention Network (GAT)</summary>
+
+| File                                                                                                                                       | Summary                                                                                                                                                                                                                                                                                                   |
+| ---                                                                                                                                        | ---                                                                                                                                                                                                                                                                                                       |
+| [Antibacterials.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb)                                 | Prompt exceeds max token limit: 55634.                                                                                                                                                                                                                                                                    |
+| [hyper_parameter_search_Solubility.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/hyper_parameter_search_Solubility.py) | HTTPStatus Exception: 429                                                                                                                                                                                                                                                                                 |
+| [getFeatures.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/getFeatures.py)                               | HTTPStatus Exception: 429 |
+| [AttentiveLayers_viz.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers_viz.py)               | HTTPStatus Exception: 429 |
+| [AttentiveLayers.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers.py)                       | HTTPStatus Exception: 429 |
+| [Featurizer.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/Featurizer.py)                                 | HTTPStatus Exception: 429 |
+| [Featurizer_aromaticity_rm.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/Featurizer_aromaticity_rm.py)   | HTTPStatus Exception: 429 |
+| [getFeatures_aromaticity_rm.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/getFeatures_aromaticity_rm.py) | HTTPStatus Exception: 429 |
+
+</details>
+
+<details closed><summary>Directed Message Passing Neural Networks (D-MPNN)</summary>
+
+| File                                                                            | Summary                                |
+| ---                                                                             | ---                                    |
+| [DMPNN.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/DMPNN.ipynb) | Prompt exceeds max token limit: 22257. |
+
+</details>
+
+<details closed><summary>eXtreme Gradient Boosting (Xgboost)</summary>
+
+| File                                                                                        | Summary                                  |
+| ---                                                                                         | ---                                      |
+| [XGBoost.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/XGBoost.ipynb) | Prompt exceeds max token limit: 12337.   |
+| [Anti.txt](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/Anti.txt)           | Prompt exceeds max token limit: 5897.    |
+| [Anti_MD.txt](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/Anti_MD.txt)     | Prompt exceeds max token limit: 1798445. |
+
+</details>
+
+<details closed><summary>K-Nearest Neighbors (KNN): Model’s applicability domain</summary>
+
+| File                                                                                                                               | Summary                                 |
+| ---                                                                                                                                | ---                                     |
+| [Applicability_Domain.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/Applicability_Domain/Applicability_Domain.ipynb) | Prompt exceeds max token limit: 5171.   |
+| [training_set.sdf](https://github.com/WestonSu/Antimicrobials/blob/main/Applicability_Domain/training_set.sdf)                     | Prompt exceeds max token limit: 307209. |
+| [test_set.sdf](https://github.com/WestonSu/Antimicrobials/blob/main/Applicability_Domain/test_set.sdf)                             | Prompt exceeds max token limit: 212299. |
+
+</details>
+
+---
+## 🚀 Getting Started
+
+***Dependencies***
+
+Please ensure you have the following dependencies installed on your system:
+
+`- ℹ️ Dependency 1`
+
+`- ℹ️ Dependency 2`
+
+`- ℹ️ ...`
+
+### 🔧 Installation
+
+1. Clone the Antimicrobials repository:
+```sh
+git clone https://github.com/WestonSu/Antimicrobials
+```
+
+2. Change to the project directory:
+```sh
+cd Antimicrobials
+```
+
+3. Install the dependencies:
+```sh
+pip install -r requirements.txt
+```
 ---
 
 ## 📖 Table of Contents
@@ -47,88 +117,8 @@ HTTPStatus Exception: 429
 ---
 
 
-## 📂 Repository Structure
 
 
-
-
----
-
-## ⚙️ Modules
-
-<details closed><summary>Graph Attention Network (GAT)</summary>
-
-| File                                                                                                                                       | Summary                                                                                                                                                                                                                                                                                                   |
-| ---                                                                                                                                        | ---                                                                                                                                                                                                                                                                                                       |
-| [Antibacterials.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb)                                 | Prompt exceeds max token limit: 55634.                                                                                                                                                                                                                                                                    |
-| [hyper_parameter_search_Solubility.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/hyper_parameter_search_Solubility.py) | HTTPStatus Exception: 429                                                                                                                                                                                                                                                                                 |
-| [getFeatures.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/getFeatures.py)                               | HTTPStatus Exception: 429 |
-| [AttentiveLayers_viz.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers_viz.py)               | HTTPStatus Exception: 429 |
-| [AttentiveLayers.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers.py)                       | HTTPStatus Exception: 429 |
-| [Featurizer.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/Featurizer.py)                                 | HTTPStatus Exception: 429 |
-| [Featurizer_aromaticity_rm.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/Featurizer_aromaticity_rm.py)   | HTTPStatus Exception: 429 |
-| [getFeatures_aromaticity_rm.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/getFeatures_aromaticity_rm.py) | HTTPStatus Exception: 429 |
-
-</details>
-
-<details closed><summary>Directed Message Passing Neural Networks (D-MPNN)</summary>
-
-| File                                                                            | Summary                                |
-| ---                                                                             | ---                                    |
-| [DMPNN.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/DMPNN.ipynb) | Prompt exceeds max token limit: 22257. |
-
-</details>
-
-<details closed><summary>eXtreme Gradient Boosting (Xgboost)</summary>
-
-| File                                                                                        | Summary                                  |
-| ---                                                                                         | ---                                      |
-| [Anti_MD.txt](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/Anti_MD.txt)     | Prompt exceeds max token limit: 1798445. |
-| [XGBoost.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/XGBoost.ipynb) | Prompt exceeds max token limit: 12337.   |
-| [Anti.txt](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/Anti.txt)           | Prompt exceeds max token limit: 5897.    |
-
-</details>
-
-<details closed><summary>K-Nearest Neighbors (KNN): Model’s applicability domain</summary>
-
-| File                                                                                                                               | Summary                                 |
-| ---                                                                                                                                | ---                                     |
-| [Applicability_Domain.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/Applicability_Domain/Applicability_Domain.ipynb) | Prompt exceeds max token limit: 5171.   |
-| [training_set.sdf](https://github.com/WestonSu/Antimicrobials/blob/main/Applicability_Domain/training_set.sdf)                     | Prompt exceeds max token limit: 307209. |
-| [test_set.sdf](https://github.com/WestonSu/Antimicrobials/blob/main/Applicability_Domain/test_set.sdf)                             | Prompt exceeds max token limit: 212299. |
-
-</details>
-
----
-
-## 🚀 Getting Started
-
-***Dependencies***
-
-Please ensure you have the following dependencies installed on your system:
-
-`- ℹ️ Dependency 1`
-
-`- ℹ️ Dependency 2`
-
-`- ℹ️ ...`
-
-### 🔧 Installation
-
-1. Clone the Antimicrobials repository:
-```sh
-git clone https://github.com/WestonSu/Antimicrobials
-```
-
-2. Change to the project directory:
-```sh
-cd Antimicrobials
-```
-
-3. Install the dependencies:
-```sh
-pip install -r requirements.txt
-```
 
 ### 🤖 Running Antimicrobials
 

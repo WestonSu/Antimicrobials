@@ -95,7 +95,7 @@ miniconda3:4.5.11-python3.7-cuda9.2-cudnn7-ubuntu18.04
 
 ## 📦 Model interpretation <a name="interpretation"></a>
 
-The model outputs of GAT, D-MPNN, and XGBoost were explained using attention weight, substructure and SHapley Additive exPlanations (SHAP) approach. In the GAT model, attention coefficients are introduced to weight the importance of nodes in molecular graphs, enabling the model to highlight crucial nodes and relationships for predictive tasks, thereby enhancing model interpretability. 
+The model outputs of GAT, D-MPNN, and XGBoost were explained using attention weight, substructure and SHapley Additive exPlanations ([SHAP](https://github.com/shap/shap)) approach. In the GAT model, attention coefficients are introduced to weight the importance of nodes in molecular graphs, enabling the model to highlight crucial nodes and relationships for predictive tasks, thereby enhancing model interpretability. 
 
 ---
 

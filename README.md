@@ -15,11 +15,11 @@
 
 | File                                                                            | Summary                                |
 | ---                                                                             | ---                                    |                         
-| [Antibacterials.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb)                                 | Search for the optimal model hyperparameters|                                               
-| [hyper_parameter_search.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/hyper_parameter_search.py)                       | Search for the optimal model hyperparameters|
-| [AttentiveLayers.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers.py)                         | Defines the deep learning model for recognizing chemical fingerprints|
-| [Featurizer.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/Featurizer.py)                                   |  Extracts features of chemical molecules to serve as inputs for the deep learning model|
-| [getFeatures.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/getFeatures.py)                                 |  Extracts features from SMILES strings of chemical molecules, transforming them into model inputs|
+| [Antibacterials.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb)                                 | The results for model training, evaluation, and prediction using GAT can be step-by-step reproduced by running 'Antibacterials.ipynb'.|                                             
+| [AttentiveLayers.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers.py)                         | Defines the deep learning model for recognizing chemical fingerprints.|
+| [Featurizer.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/Featurizer.py)                                   | Extracts features of chemical molecules to serve as inputs for the deep learning model.|
+| [getFeatures.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/getFeatures.py)                                 | Extracts features from SMILES strings of chemical molecules, transforming them into model inputs.|
+| [hyper_parameter_search.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/hyper_parameter_search.py)                       | Search for the optimal model hyperparameters.|
 
 </details>
 
@@ -27,7 +27,7 @@
 
 | File                                                                            | Summary                                |
 | ---                                                                             | ---                                    |
-| [DMPNN.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/DMPNN.ipynb) | Prompt exceeds max token limit: 22257. |
+| [DMPNN.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/DMPNN.ipynb) |The results for model training, evaluation, and prediction using DMPNN can be step-by-step reproduced by running 'DMPNN.ipynb'.|
 
 </details>
 
@@ -35,7 +35,7 @@
 
 | File                                                                                        | Summary                                  |
 | ---                                                                                         | ---                                      |
-| [XGBoost.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/XGBoost.ipynb) | Prompt exceeds max token limit: 12337.   |
+| [XGBoost.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/XGBoost.ipynb) | The results for model training, evaluation, and prediction using XGBoost can be step-by-step reproduced by running 'XGBoost.ipynb'.|
 | [Anti.txt](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/Anti.txt)           | Prompt exceeds max token limit: 5897.    |
 | [Anti_MD.txt](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/Anti_MD.txt)     | Prompt exceeds max token limit: 1798445. |
 

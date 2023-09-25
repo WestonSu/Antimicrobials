@@ -16,9 +16,9 @@
 | File   | Summary   |
 |:------ |:--------- |                     
 | [Antibacterials.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb)                                 | The results for model training, evaluation, and prediction using GAT can be step-by-step reproduced by running 'Antibacterials.ipynb'. |                                            
-| [AttentiveLayers.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers.py)                         | Defines the deep learning model for recognizing chemical fingerprints. |
-| [Featurizer.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/Featurizer.py)                                   | Extracts features of chemical molecules to serve as inputs for the deep learning model. |
-| [getFeatures.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/getFeatures.py)                                 | Extracts features from SMILES strings of chemical molecules, transforming them into model inputs. |
+| [AttentiveLayers.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers.py)                         | Define the deep learning model for recognizing chemical fingerprints. |
+| [Featurizer.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/Featurizer.py)                                   | Extract features of chemical molecules to serve as inputs for the deep learning model. |
+| [getFeatures.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/getFeatures.py)                                 | Extract features from SMILES strings of chemical molecules, transforming them into model inputs. |
 | [hyper_parameter_search.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/hyper_parameter_search.py)                       | Search for the optimal model hyperparameters. |
 
 </details>
@@ -45,9 +45,7 @@
 
 | File   | Summary   |
 |:------ |:--------- |
-| [Applicability_Domain.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/Applicability_Domain/Applicability_Domain.ipynb) | Prompt exceeds max token limit: 5171.   |
-| [training_set.sdf](https://github.com/WestonSu/Antimicrobials/blob/main/Applicability_Domain/training_set.sdf)                     | Prompt exceeds max token limit: 307209. |
-| [test_set.sdf](https://github.com/WestonSu/Antimicrobials/blob/main/Applicability_Domain/test_set.sdf)                             | Prompt exceeds max token limit: 212299. |
+| [Applicability_Domain.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/Applicability_Domain/Applicability_Domain.ipynb) | Define the model’s applicability domain using the k-nearest neighbors variable selection method. |
 
 </details>
 

@@ -7,9 +7,9 @@
 <img src="https://img.shields.io/github/license/WestonSu/Antimicrobials?style&color=5D6D7E" alt="GitHub license" />
 </p>
 
-This repository provides the code for machine learning models predicting the antibacterial activity of chemicals and all associated raw datasets. Two graph-based ML models (i.e., [Graph Attention Network (GAT)](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb) and [Directed Message Passing Neural Networks (D-MPNN)](https://github.com/WestonSu/Antimicrobials/blob/main/DMPNN.ipynb)) and a descriptor-based model (i.e., [eXtreme Gradient Boosting (XGBoost)](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/XGBoost.ipynb)) were selected to compare the predictive performance of different model architectures. Ultimately, the [GAT](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb) model performed best across five random splits of the dataset.
+This repository provides the code for machine learning models predicting the antibacterial activity of chemicals and all associated raw datasets. Two graph-based ML models (i.e., [Graph Attention Network (GAT)](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb) and [Directed Message Passing Neural Networks (D-MPNN)](https://github.com/WestonSu/Antimicrobials/blob/main/DMPNN.ipynb)) and a descriptor-based model (i.e., [eXtreme Gradient Boosting (XGBoost)](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/XGBoost.ipynb)) were selected to compare the predictive performance of different model architectures. **Ultimately, the [GAT](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb) model performed best across five random splits of the dataset.**
 
-The MIC_Pictures folder contains the results of growth inhibition assays on Escherichia coli for quaternary ammonium compounds (QACs). Detailed information about the compounds can be found in the manuscript.
+The MIC_Pictures folder contains the results of growth inhibition assays on _Escherichia coli_ (_E. coli_) for quaternary ammonium compounds (QACs). Detailed information about the compounds can be found in the manuscript.
 
 ![Model graphic](Model_graphic.png)
 
@@ -95,7 +95,7 @@ miniconda3:4.5.11-python3.7-cuda9.2-cudnn7-ubuntu18.04
 
 ## ⚙️ Model interpretation <a name="interpretation"></a>
 
-The model outputs of GAT, D-MPNN, and XGBoost were explained using attention weight, substructure and SHapley Additive exPlanations ([SHAP](https://github.com/shap/shap)) approach. For detailed interpretation of the D-MPNN model results, please refer to [Chemprop](https://chemprop.readthedocs.io/en/latest/tutorial.html) GitHub project. In the GAT model, attention coefficients are introduced to weight the importance of nodes in molecular graphs, enabling the model to highlight crucial nodes and relationships for predictive tasks, thereby enhancing model interpretability. For example, molecular features that contribute to the prediction of antibacterial activity are highlighted with deeper colors in the following figure.
+The model outputs of **GAT**, D-MPNN, and XGBoost were explained using attention weight, substructure and SHapley Additive exPlanations ([SHAP](https://github.com/shap/shap)) approach. For detailed interpretation of the D-MPNN model results, please refer to [Chemprop](https://chemprop.readthedocs.io/en/latest/tutorial.html) GitHub project. In the GAT model, **attention weights** are introduced to weight the importance of nodes in molecular graphs, enabling the model to highlight crucial nodes and relationships for predictive tasks, thereby enhancing model interpretability. **For example, molecular features that contribute to the prediction of antibacterial activity are highlighted with deeper colors in the following figure.**
 
 ![Model graphic](Attention_weight.png)
 
@@ -111,24 +111,7 @@ The model outputs of GAT, D-MPNN, and XGBoost were explained using attention wei
 
 ## 🤝 Collaboration <a name="Collaboration"></a>
 
-Contributions are always welcome! Please follow these steps:
-1. Fork the project repository. This creates a copy of the project on your account that you can modify without affecting the original project.
-2. Clone the forked repository to your local machine using a Git client like Git or GitHub Desktop.
-3. Create a new branch with a descriptive name (e.g., `new-feature-branch` or `bugfix-issue-123`).
-```sh
-git checkout -b new-feature-branch
-```
-4. Make changes to the project's codebase.
-5. Commit your changes to your local branch with a clear commit message that explains the changes you've made.
-```sh
-git commit -m 'Implemented new feature.'
-```
-6. Push your changes to your forked repository on GitHub using the following command
-```sh
-git push origin new-feature-branch
-```
-7. Create a new pull request to the original project repository. In the pull request, describe the changes you've made and why they're necessary.
-The project maintainers will review your changes and provide feedback or merge them into the main branch.
+Due to the limitations of the [training set (n=2928)](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/data/Anti_plus_v2.csv), certain chemicals outside its applicability domain may not have ideal predictions for antibacterial activity. We welcome contributions from other researchers to supplement data on the growth inhibition of _E. coli_ by other chemicals. If you have any questions regarding this project, please contact wysu_st@rcees.ac.cn.
 
 ---
 

@@ -9,12 +9,46 @@
 
 This repository provides the code for machine learning models predicting the antibacterial activity of chemicals and all associated raw datasets. Two graph-based ML models (i.e., [Graph Attention Network (GAT)](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb) and [Directed Message Passing Neural Networks (D-MPNN)](https://github.com/WestonSu/Antimicrobials/blob/main/DMPNN.ipynb)) and a descriptor-based model (i.e., [eXtreme Gradient Boosting (XGBoost)](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/XGBoost.ipynb)) were selected to compare the predictive performance of different model architectures. Ultimately, the [GAT](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb) model performed best across five random splits of the dataset.
 
-The MIC_Pictures folder contains the results of growth inhibition assays on Escherichia coli for 30 identified quaternary ammonium compounds (QACs). Detailed information about the compounds can be found in the manuscript.
+The MIC_Pictures folder contains the results of growth inhibition assays on Escherichia coli for quaternary ammonium compounds (QACs). Detailed information about the compounds can be found in the manuscript.
 
 ![Model graphic](Model_graphic.png)
 
 ---
-## 📂 Repository Structure
+
+## 📖 Table of Contents
+- [🔧 Install & setup](#setup)
+- [🚀 Quick start](#quickstart)
+- [⚙️ Model interpretation](#interpretation)
+- [📦 Model outputs](#outputs)
+- [🤝 Collaboration](#Collaboration)
+- [📄 Citations](#citations)
+---
+
+## 🔧 Install & setup <a name="setup"></a>
+1. Clone the Antimicrobials repository:
+```sh
+git clone https://github.com/WestonSu/Antimicrobials
+```
+2. Change to the project directory:
+```sh
+cd Antimicrobials
+```
+3. Please ensure you have the following dependencies installed on your system:
+- **Base Environment**:  
+miniconda3:4.5.11-python3.7-cuda9.2-cudnn7-ubuntu18.04
+- **Packages**:
+    ```
+    cudatoolkit: 10.0.130
+    pytorch: 1.0.1
+    rdkit: 2019.03.1.0
+    seaborn: 0.9.0
+    torchvision: 0.2.2
+    matplotlib==3.0.3
+    pyGPGO==0.4.0.dev1
+    tensorboardX==1.6
+    ```
+
+## 🚀 Quick start <a name="quickstart"></a>
 
 <details open><summary>Graph Attention Network (GAT)</summary>
 
@@ -55,94 +89,21 @@ The MIC_Pictures folder contains the results of growth inhibition assays on Esch
 </details>
 
 ---
-## 🚀 Getting Started
-
-***Dependencies***
-
-Please ensure you have the following dependencies installed on your system:
-
-`- ℹ️ Dependency 1`
-
-`- ℹ️ Dependency 2`
-
-`- ℹ️ ...`
-
-### 🔧 Installation
-
-1. Clone the Antimicrobials repository:
-```sh
-git clone https://github.com/WestonSu/Antimicrobials
-```
-
-2. Change to the project directory:
-```sh
-cd Antimicrobials
-```
-
-3. Install the dependencies:
-```sh
-pip install -r requirements.txt
-```
----
-
-## 📖 Table of Contents
-- [📖 Table of Contents](#-table-of-contents)
-- [📍 Overview](#-overview)
-- [📦 Features](#-features)
-- [📂 Repository Structure](#-repository-structure)
-- [⚙️ Modules](#modules)
-- [🚀 Getting Started](#-getting-started)
-    - [🔧 Installation](#-installation)
-    - [🤖 Running Antimicrobials](#-running-Antimicrobials)
-    - [🧪 Tests](#-tests)
-- [🛣 Roadmap](#-roadmap)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [👏 Acknowledgments](#-acknowledgments)
-
----
-
-
-## 📍 Overview
-
-HTTPStatus Exception: 429
-
----
-
-## 📦 Features
-
-HTTPStatus Exception: 429
-
----
-
-
-
-
-
-### 🤖 Running Antimicrobials
-
-```sh
-python main.py
-```
-
-### 🧪 Tests
-```sh
-pytest
-```
-
----
-
-
-## 🛣 Roadmap
-
-> - [X] `ℹ️  Task 1: Implement X`
-> - [ ] `ℹ️  Task 2: Implement Y`
-> - [ ] `ℹ️ ...`
 
 
 ---
 
-## 🤝 Contributing
+## ⚙️ Model interpretation <a name="interpretation"></a>
+
+The model outputs of GAT, D-MPNN, and XGBoost were explained using attention weight, substructure and SHapley Additive exPlanations ([SHAP](https://github.com/shap/shap)) approach. In the GAT model, attention coefficients are introduced to weight the importance of nodes in molecular graphs, enabling the model to highlight crucial nodes and relationships for predictive tasks, thereby enhancing model interpretability. 
+
+---
+
+## 📦 Model outputs <a name="outputs"></a>
+
+---
+
+## 🤝 Collaboration <a name="Collaboration"></a>
 
 Contributions are always welcome! Please follow these steps:
 1. Fork the project repository. This creates a copy of the project on your account that you can modify without affecting the original project.
@@ -165,19 +126,7 @@ The project maintainers will review your changes and provide feedback or merge t
 
 ---
 
-## 📄 License
-
-This project is licensed under the `ℹ️  LICENSE-TYPE` License. See the [LICENSE-Type](LICENSE) file for additional info.
-
----
-
-## 👏 Acknowledgments
-
-`- ℹ️ List any resources, contributors, inspiration, etc.`
-
----
-
-## Citations <a name="citations"></a>  
+## 📄 Citations <a name="citations"></a>  
 
 We ask users to cite ****** directly by referencing the following paper:
 

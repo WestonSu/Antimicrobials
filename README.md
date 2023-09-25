@@ -9,7 +9,7 @@
 
 This repository provides the code for machine learning models predicting the antibacterial activity of chemicals and all associated raw datasets. Two graph-based ML models (i.e., [Graph Attention Network (GAT)](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb) and [Directed Message Passing Neural Networks (D-MPNN)](https://github.com/WestonSu/Antimicrobials/blob/main/DMPNN.ipynb)) and a descriptor-based model (i.e., [eXtreme Gradient Boosting (XGBoost)](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/XGBoost.ipynb)) were selected to compare the predictive performance of different model architectures. Ultimately, the [GAT](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb) model performed best across five random splits of the dataset.
 
-The MIC_Pictures folder contains the results of growth inhibition assays on Escherichia coli for 30 identified quaternary ammonium compounds (QACs). Detailed information about the compounds can be found in the manuscript.
+The MIC_Pictures folder contains the results of growth inhibition assays on Escherichia coli for quaternary ammonium compounds (QACs). Detailed information about the compounds can be found in the manuscript.
 
 ![Model graphic](Model_graphic.png)
 

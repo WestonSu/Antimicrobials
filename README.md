@@ -14,6 +14,23 @@ The MIC_Pictures folder contains the results of growth inhibition assays on Esch
 ![Model graphic](Model_graphic.png)
 
 ---
+
+## 📖 Table of Contents
+- [📂 Repository Structure](#-repository-structure)
+- [📍 Overview](#-overview)
+- [📦 Features](#-features)
+- [⚙️ Modules](#modules)
+- [🚀 Getting Started](#-getting-started)
+    - [🔧 Installation](#-installation)
+    - [🤖 Running Antimicrobials](#-running-Antimicrobials)
+    - [🧪 Tests](#-tests)
+- [🛣 Roadmap](#-roadmap)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [👏 Acknowledgments](#-acknowledgments)
+
+---
+
 ## 📂 Repository Structure
 
 <details open><summary>Graph Attention Network (GAT)</summary>
@@ -85,22 +102,7 @@ pip install -r requirements.txt
 ```
 ---
 
-## 📖 Table of Contents
-- [📖 Table of Contents](#-table-of-contents)
-- [📍 Overview](#-overview)
-- [📦 Features](#-features)
-- [📂 Repository Structure](#-repository-structure)
-- [⚙️ Modules](#modules)
-- [🚀 Getting Started](#-getting-started)
-    - [🔧 Installation](#-installation)
-    - [🤖 Running Antimicrobials](#-running-Antimicrobials)
-    - [🧪 Tests](#-tests)
-- [🛣 Roadmap](#-roadmap)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [👏 Acknowledgments](#-acknowledgments)
 
----
 
 
 ## 📍 Overview

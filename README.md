@@ -3,7 +3,6 @@
 <p align="left">
 <img src="https://img.shields.io/badge/Jupyter-F37626.svg?style&logo=Jupyter&logoColor=white" alt="Jupyter" />
 <img src="https://img.shields.io/badge/Python-3776AB.svg?style&logo=Python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Docker-2496ED.svg?style&logo=Docker&logoColor=white" alt="Docker" />
 <img src="https://img.shields.io/badge/Markdown-000000.svg?style&logo=Markdown&logoColor=white" alt="Markdown" />
 <img src="https://img.shields.io/github/license/WestonSu/Antimicrobials?style&color=5D6D7E" alt="GitHub license" />
 </p>
@@ -16,14 +15,11 @@
 
 | File                                                                            | Summary                                |
 | ---                                                                             | ---                                    |                         
-| [Antibacterials.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb)                                 | Prompt exceeds max token limit: 55634|                                               
-| [hyper_parameter_search_Solubility.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/hyper_parameter_search_Solubility.py) | HTTPStatus Exception: 429            |
-| [getFeatures.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/getFeatures.py)                                 | HTTPStatus Exception: 429            |
-| [AttentiveLayers_viz.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers_viz.py)                 | HTTPStatus Exception: 429            |
-| [AttentiveLayers.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers.py)                         | HTTPStatus Exception: 429            |
-| [Featurizer.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/Featurizer.py)                                   | HTTPStatus Exception: 429            |
-| [Featurizer_aromaticity_rm.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/Featurizer_aromaticity_rm.py)     | HTTPStatus Exception: 429            |
-| [getFeatures_aromaticity_rm.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/getFeatures_aromaticity_rm.py)   | HTTPStatus Exception: 429            |
+| [Antibacterials.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb)                                 | Search for the optimal model hyperparameters|                                               
+| [hyper_parameter_search.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/hyper_parameter_search.py)                       | Search for the optimal model hyperparameters|
+| [AttentiveLayers.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers.py)                         | Defines the deep learning model for recognizing chemical fingerprints|
+| [Featurizer.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/Featurizer.py)                                   |  Extracts features of chemical molecules to serve as inputs for the deep learning model|
+| [getFeatures.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/getFeatures.py)                                 |  Extracts features from SMILES strings of chemical molecules, transforming them into model inputs|
 
 </details>
 

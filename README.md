@@ -16,7 +16,7 @@ The MIC_Pictures folder contains the results of growth inhibition assays on Esch
 ---
 
 ## 📖 Table of Contents
-- [📂 Repository Structure](#-repository-structure)
+- [🔧 Install & setup](#-Install-&-setup)
 - [📍 Overview](#-overview)
 - [📦 Features](#-features)
 - [⚙️ Modules](#modules)
@@ -31,11 +31,35 @@ The MIC_Pictures folder contains the results of growth inhibition assays on Esch
 
 ---
 
-## 📂 Repository Structure
+## 🔧 Install & setup
+1. Clone the Antimicrobials repository:
+```sh
+git clone https://github.com/WestonSu/Antimicrobials
+```
+2. Change to the project directory:
+```sh
+cd Antimicrobials
+```
+3. Please ensure you have the following dependencies installed on your system:
+- **Base Environment**:  
+miniconda3:4.5.11-python3.7-cuda9.2-cudnn7-ubuntu18.04
+- **Packages**:
+    ```
+    cudatoolkit: 10.0.130
+    pytorch: 1.0.1
+    rdkit: 2019.03.1.0
+    seaborn: 0.9.0
+    torchvision: 0.2.2
+    matplotlib==3.0.3
+    pyGPGO==0.4.0.dev1
+    tensorboardX==1.6
+    ```
+
+## 🚀 Quick start
 
 <details open><summary>Graph Attention Network (GAT)</summary>
 
-| Function   | Description1   |
+| Function   | Description   |
 |:------ |:--------- |                     
 | [Antibacterials.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb)                                 | The results for model training, evaluation, and prediction using GAT can be step-by-step reproduced by running 'Antibacterials.ipynb'. |                                            
 | [AttentiveLayers.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers.py)                         | Define the deep learning model for recognizing chemical fingerprints. |
@@ -72,42 +96,7 @@ The MIC_Pictures folder contains the results of growth inhibition assays on Esch
 </details>
 
 ---
-## 🚀 Getting Started
 
-***Dependencies***
-
-Please ensure you have the following dependencies installed on your system:
-
-`- ℹ️ Dependency 1`
-
-`- ℹ️ Dependency 2`
-
-`- ℹ️ ...`
-
-### 🔧 Installation
-
-1. Clone the Antimicrobials repository:
-```sh
-git clone https://github.com/WestonSu/Antimicrobials
-```
-
-2. Change to the project directory:
-```sh
-cd Antimicrobials
-```
-
-3. Install the dependencies:
-```sh
-pip install -r requirements.txt
-```
----
-
-
-
-
-## 📍 Overview
-
-HTTPStatus Exception: 429
 
 ---
 

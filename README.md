@@ -16,7 +16,7 @@ The MIC_Pictures folder contains the results of growth inhibition assays on Esch
 ---
 
 ## 📖 Table of Contents
-- [🔧 Install & setup](#-Install-&-setup)
+- [🔧 Install & setup](#setup)
 - [📍 Overview](#-overview)
 - [📦 Features](#-features)
 - [⚙️ Modules](#modules)
@@ -31,7 +31,7 @@ The MIC_Pictures folder contains the results of growth inhibition assays on Esch
 
 ---
 
-## 🔧 Install & setup
+## 🔧 Install & setup <a name="setup"></a>
 1. Clone the Antimicrobials repository:
 ```sh
 git clone https://github.com/WestonSu/Antimicrobials

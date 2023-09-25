@@ -17,18 +17,11 @@ The MIC_Pictures folder contains the results of growth inhibition assays on Esch
 
 ## 📖 Table of Contents
 - [🔧 Install & setup](#setup)
-- [📍 Overview](#-overview)
-- [📦 Features](#-features)
-- [⚙️ Modules](#modules)
-- [🚀 Getting Started](#-getting-started)
-    - [🔧 Installation](#-installation)
-    - [🤖 Running Antimicrobials](#-running-Antimicrobials)
-    - [🧪 Tests](#-tests)
-- [🛣 Roadmap](#-roadmap)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [👏 Acknowledgments](#-acknowledgments)
-
+- [🚀 Quick start](#quickstart)
+- [📦 Model interpretation](#interpretation)
+- [⚙️ Model outputs](#outputs)
+- [🤝 Collaboration](#Collaboration)
+- [📄 Citations](#citations)
 ---
 
 ## 🔧 Install & setup <a name="setup"></a>
@@ -55,7 +48,7 @@ miniconda3:4.5.11-python3.7-cuda9.2-cudnn7-ubuntu18.04
     tensorboardX==1.6
     ```
 
-## 🚀 Quick start
+## 🚀 Quick start <a name="quickstart"></a>
 
 <details open><summary>Graph Attention Network (GAT)</summary>
 
@@ -100,40 +93,17 @@ miniconda3:4.5.11-python3.7-cuda9.2-cudnn7-ubuntu18.04
 
 ---
 
-## 📦 Features
+## 📦 Model interpretation <a name="interpretation"></a>
 
 HTTPStatus Exception: 429
 
 ---
 
-
-
-
-
-### 🤖 Running Antimicrobials
-
-```sh
-python main.py
-```
-
-### 🧪 Tests
-```sh
-pytest
-```
+## ⚙️ Model outputs <a name="outputs"></a>
 
 ---
 
-
-## 🛣 Roadmap
-
-> - [X] `ℹ️  Task 1: Implement X`
-> - [ ] `ℹ️  Task 2: Implement Y`
-> - [ ] `ℹ️ ...`
-
-
----
-
-## 🤝 Contributing
+## 🤝 Collaboration <a name="Collaboration"></a>
 
 Contributions are always welcome! Please follow these steps:
 1. Fork the project repository. This creates a copy of the project on your account that you can modify without affecting the original project.
@@ -156,19 +126,7 @@ The project maintainers will review your changes and provide feedback or merge t
 
 ---
 
-## 📄 License
-
-This project is licensed under the `ℹ️  LICENSE-TYPE` License. See the [LICENSE-Type](LICENSE) file for additional info.
-
----
-
-## 👏 Acknowledgments
-
-`- ℹ️ List any resources, contributors, inspiration, etc.`
-
----
-
-## Citations <a name="citations"></a>  
+## 📄 Citations <a name="citations"></a>  
 
 We ask users to cite ****** directly by referencing the following paper:
 

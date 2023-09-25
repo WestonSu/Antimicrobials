@@ -7,13 +7,16 @@
 <img src="https://img.shields.io/github/license/WestonSu/Antimicrobials?style&color=5D6D7E" alt="GitHub license" />
 </p>
 
+This repository provides the code for machine learning models predicting the antibacterial activity of chemicals and all associated raw datasets. Two graph-based ML models (i.e., [Graph Attention Network (GAT)](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb) and [Directed Message Passing Neural Networks (D-MPNN)](https://github.com/WestonSu/Antimicrobials/blob/main/DMPNN.ipynb)) and a descriptor-based model (i.e., [eXtreme Gradient Boosting (XGBoost)](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/XGBoost.ipynb)) were selected to compare the predictive performance of different model architectures. Ultimately, the [GAT](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb) model performed best across five random splits of the dataset.
+
+![Model graphic](Model_graphic.png)
 
 ---
 ## 📂 Repository Structure
 
 <details open><summary>Graph Attention Network (GAT)</summary>
 
-| File   | Summary   |
+| Function   | Description   |
 |:------ |:--------- |                     
 | [Antibacterials.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb)                                 | The results for model training, evaluation, and prediction using GAT can be step-by-step reproduced by running 'Antibacterials.ipynb'. |                                            
 | [AttentiveLayers.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers.py)                         | Define the deep learning model for recognizing chemical fingerprints. |
@@ -25,16 +28,16 @@
 
 <details open><summary>Directed Message Passing Neural Networks (D-MPNN)</summary>
 
-| File   | Summary   |
-|:------ |:--------- |
+| Function   | Description   |
+|:------ |:--------- |      
 | [DMPNN.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/DMPNN.ipynb) | The results for model training, evaluation, and prediction using DMPNN can be step-by-step reproduced by running 'DMPNN.ipynb'. |
 
 </details>
 
 <details open><summary>eXtreme Gradient Boosting (XGBoost)</summary>
 
-| File   | Summary   |
-|:------ |:--------- |
+| Function   | Description   |
+|:------ |:--------- |      
 | [XGBoost.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/XGBoost.ipynb) | The results for model training, evaluation, and prediction using XGBoost can be step-by-step reproduced by running 'XGBoost.ipynb'. |
 | [Anti.txt](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/Anti.txt)           | SMILES of compounds in the training set (n=2928). |
 | [Anti_MD.txt](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/Anti_MD.txt)     | Molecular descriptors for compounds in the training set. |
@@ -43,8 +46,8 @@
 
 <details open><summary>K-Nearest Neighbors (KNN): Model’s applicability domain</summary>
 
-| File   | Summary   |
-|:------ |:--------- |
+| Function   | Description   |
+|:------ |:--------- |      
 | [Applicability_Domain.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/Applicability_Domain/Applicability_Domain.ipynb) | Define the model’s applicability domain using the k-nearest neighbors variable selection method. |
 
 </details>

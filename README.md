@@ -117,11 +117,11 @@ Due to the limitations of the [training set (n=2928)](https://github.com/WestonS
 
 ## 📄 Citations <a name="citations"></a>  
 
-We ask users to cite ****** directly by referencing the following paper:
+We ask users to directly cite the following paper:
 
 Su, W. et al. Persistent quaternary ammonium compounds in Chinese estuaries as key drivers of environmental resistome beyond antibiotics.
 
-*** also builds on a number of other projects, ideas, and software including ******. Please consider citing the following full list of papers when relevant:  
+This project also builds on a number of other projects, algorithms and ideas. Please consider citing the following full list of papers when relevant: 
 
 1. Stokes, J. M. et al. A deep learning approach to antibiotic discovery. Cell 180, 688–702.e613 (2020).
 2. Yang, K. et al. Analyzing learned molecular representations for property prediction. J. Chem. Inf. Model. 59, 3370–3388 (2019).

@@ -18,8 +18,8 @@ The MIC_Pictures folder contains the results of growth inhibition assays on Esch
 ## 📖 Table of Contents
 - [🔧 Install & setup](#setup)
 - [🚀 Quick start](#quickstart)
-- [📦 Model interpretation](#interpretation)
-- [⚙️ Model outputs](#outputs)
+- [⚙️ Model interpretation](#interpretation)
+- [📦 Model outputs](#outputs)
 - [🤝 Collaboration](#Collaboration)
 - [📄 Citations](#citations)
 ---
@@ -93,13 +93,13 @@ miniconda3:4.5.11-python3.7-cuda9.2-cudnn7-ubuntu18.04
 
 ---
 
-## 📦 Model interpretation <a name="interpretation"></a>
+## ⚙️ Model interpretation <a name="interpretation"></a>
 
 The model outputs of GAT, D-MPNN, and XGBoost were explained using attention weight, substructure and SHapley Additive exPlanations ([SHAP](https://github.com/shap/shap)) approach. In the GAT model, attention coefficients are introduced to weight the importance of nodes in molecular graphs, enabling the model to highlight crucial nodes and relationships for predictive tasks, thereby enhancing model interpretability. 
 
 ---
 
-## ⚙️ Model outputs <a name="outputs"></a>
+## 📦 Model outputs <a name="outputs"></a>
 
 ---
 

@@ -95,13 +95,16 @@ miniconda3:4.5.11-python3.7-cuda9.2-cudnn7-ubuntu18.04
 
 ## ⚙️ Model interpretation <a name="interpretation"></a>
 
-The model outputs of GAT, D-MPNN, and XGBoost were explained using attention weight, substructure and SHapley Additive exPlanations ([SHAP](https://github.com/shap/shap)) approach. In the GAT model, attention coefficients are introduced to weight the importance of nodes in molecular graphs, enabling the model to highlight crucial nodes and relationships for predictive tasks, thereby enhancing model interpretability. For example, molecular features that contribute to the prediction of antibacterial activity are highlighted in deeper colors.
+The model outputs of GAT, D-MPNN, and XGBoost were explained using attention weight, substructure and SHapley Additive exPlanations ([SHAP](https://github.com/shap/shap)) approach. For detailed interpretation of the D-MPNN model results, please refer to [Chemprop](https://chemprop.readthedocs.io/en/latest/tutorial.html) GitHub project. In the GAT model, attention coefficients are introduced to weight the importance of nodes in molecular graphs, enabling the model to highlight crucial nodes and relationships for predictive tasks, thereby enhancing model interpretability. For example, molecular features that contribute to the prediction of antibacterial activity are highlighted with deeper colors in the following figure.
 
-![Model graphic](Attention_weight.png)
+<div align="center">
+    <img src="Attention_weight.png" width="600">
+</div>
 
 ---
 
 ## 📦 Model outputs <a name="outputs"></a>
+[Four_inventories_predict.csv](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb)     
 
 ---
 

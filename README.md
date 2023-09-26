@@ -1,5 +1,5 @@
-# Persistent quaternary ammonium compounds in Chinese estuaries as key drivers of environmental resistome beyond antibiotics
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8305808.svg)](https://doi.org/10.5281/zenodo.8305808)
+# Persistent quaternary ammonium compounds in Chinese estuaries as key drivers of environmental resistome beyond antibiotics (unpublished paper)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8377281.svg)](https://doi.org/10.5281/zenodo.8377281)
 <p align="left">
 <img src="https://img.shields.io/badge/Jupyter-F37626.svg?style&logo=Jupyter&logoColor=white" alt="Jupyter" />
 <img src="https://img.shields.io/badge/Python-3776AB.svg?style&logo=Python&logoColor=white" alt="Python" />
@@ -7,9 +7,9 @@
 <img src="https://img.shields.io/github/license/WestonSu/Antimicrobials?style&color=5D6D7E" alt="GitHub license" />
 </p>
 
-This repository provides the code for machine learning models predicting the antibacterial activity of chemicals and all associated raw datasets. Two graph-based ML models (i.e., [Graph Attention Network (GAT)](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb) and [Directed Message Passing Neural Networks (D-MPNN)](https://github.com/WestonSu/Antimicrobials/blob/main/DMPNN.ipynb)) and a descriptor-based model (i.e., [eXtreme Gradient Boosting (XGBoost)](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/XGBoost.ipynb)) were selected to compare the predictive performance of different model architectures. **Ultimately, the [GAT](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb) model performed best across five random splits of the dataset.**
+This repository provides the code for machine learning models predicting the antibacterial activity of chemicals and all associated raw datasets. Two graph-based ML models (i.e., [Graph Attention Network (GAT)](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/code/Antibacterials.ipynb) and [Directed Message Passing Neural Networks (D-MPNN)](https://github.com/WestonSu/Antimicrobials/blob/main/2_DMPNN/DMPNN.ipynb)) and a descriptor-based model (i.e., [eXtreme Gradient Boosting (XGBoost)](https://github.com/WestonSu/Antimicrobials/blob/main/3_XGBoost/XGBoost.ipynb)) were selected to compare the predictive performance of different model architectures. **Ultimately, the [GAT](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/code/Antibacterials.ipynb) model performed best across five random splits of the dataset.**
 
-The MIC_Pictures folder contains the results of growth inhibition assays on _Escherichia coli_ (_E. coli_) for quaternary ammonium compounds (QACs). Detailed information about the compounds can be found in the manuscript.
+The [MIC_Pictures](https://github.com/WestonSu/Antimicrobials/tree/main/5_MIC_Pictures) folder contains the results of growth inhibition assays on _Escherichia coli_ (_E. coli_) for quaternary ammonium compounds (QACs). Detailed information about the compounds can be found in the manuscript.
 
 ![Model graphic](Model_graphic.png)
 
@@ -27,7 +27,7 @@ The MIC_Pictures folder contains the results of growth inhibition assays on _Esc
 ## 🔧 Install & setup <a name="setup"></a>
 1. Clone the Antimicrobials repository:
 ```sh
-git clone https://github.com/WestonSu/Antimicrobials
+git clone ://github.com/WestonSu/Antimicrobials
 ```
 2. Change to the project directory:
 ```sh
@@ -54,11 +54,11 @@ miniconda3:4.5.11-python3.7-cuda9.2-cudnn7-ubuntu18.04
 
 | Function   | Description   |
 |:------ |:--------- |                     
-| [Antibacterials.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Antibacterials.ipynb)                                 | The results for model training, evaluation, and prediction using GAT can be step-by-step reproduced by running 'Antibacterials.ipynb'. |                                            
-| [AttentiveLayers.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/AttentiveLayers.py)                         | Define the deep learning model for recognizing chemical fingerprints. |
-| [Featurizer.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/Featurizer.py)                                   | Extract features of chemical molecules to serve as inputs for the deep learning model. |
-| [getFeatures.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/AttentiveFP/getFeatures.py)                                 | Extract features from SMILES strings of chemical molecules, transforming them into model inputs. |
-| [hyper_parameter_search.py](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/hyper_parameter_search.py)                       | Search for the optimal model hyperparameters. |
+| [Antibacterials.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/code/Antibacterials.ipynb)                                 | The results for model training, evaluation, and prediction using GAT can be step-by-step reproduced by running 'Antibacterials.ipynb'. |                                            
+| [AttentiveLayers.py](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/code/AttentiveFP/AttentiveLayers.py)                         | Define the deep learning model for recognizing chemical fingerprints. |
+| [Featurizer.py](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/code/AttentiveFP/Featurizer.py)                                   | Extract features of chemical molecules to serve as inputs for the deep learning model. |
+| [getFeatures.py](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/code/AttentiveFP/getFeatures.py)                                 | Extract features from SMILES strings of chemical molecules, transforming them into model inputs. |
+| [hyper_parameter_search.py](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/code/hyper_parameter_search.py)                       | Search for the optimal model hyperparameters. |
 
 </details>
 
@@ -66,7 +66,7 @@ miniconda3:4.5.11-python3.7-cuda9.2-cudnn7-ubuntu18.04
 
 | Function   | Description   |
 |:------ |:--------- |      
-| [DMPNN.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/DMPNN.ipynb) | The results for model training, evaluation, and prediction using DMPNN can be step-by-step reproduced by running 'DMPNN.ipynb'. |
+| [DMPNN.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/2_DMPNN/DMPNN.ipynb) | The results for model training, evaluation, and prediction using DMPNN can be step-by-step reproduced by running 'DMPNN.ipynb'. |
 
 </details>
 
@@ -74,9 +74,9 @@ miniconda3:4.5.11-python3.7-cuda9.2-cudnn7-ubuntu18.04
 
 | Function   | Description   |
 |:------ |:--------- |      
-| [XGBoost.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/XGBoost.ipynb) | The results for model training, evaluation, and prediction using XGBoost can be step-by-step reproduced by running 'XGBoost.ipynb'. |
-| [Anti.txt](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/Anti.txt)           | SMILES of compounds in the training set (n=2928). |
-| [Anti_MD.txt](https://github.com/WestonSu/Antimicrobials/blob/main/XGBoost/Anti_MD.txt)     | Molecular descriptors for compounds in the training set. |
+| [XGBoost.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/3_XGBoost/XGBoost.ipynb) | The results for model training, evaluation, and prediction using XGBoost can be step-by-step reproduced by running 'XGBoost.ipynb'. |
+| [Anti.txt](https://github.com/WestonSu/Antimicrobials/blob/main/3_XGBoost/Anti.txt)           | SMILES of compounds in the training set (n=2,928). |
+| [Anti_MD.txt](https://github.com/WestonSu/Antimicrobials/blob/main/3_XGBoost/Anti_MD.txt)     | Molecular descriptors for compounds in the training set. |
 
 </details>
 
@@ -84,7 +84,7 @@ miniconda3:4.5.11-python3.7-cuda9.2-cudnn7-ubuntu18.04
 
 | Function   | Description   |
 |:------ |:--------- |      
-| [Applicability_Domain.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/Applicability_Domain/Applicability_Domain.ipynb) | Define the model’s applicability domain using the k-nearest neighbors variable selection method. |
+| [Applicability_Domain.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/4_Applicability_Domain/Applicability_Domain.ipynb) | Define the model’s applicability domain using the k-nearest neighbors variable selection method. |
 
 </details>
 
@@ -103,15 +103,15 @@ The model outputs of **GAT**, D-MPNN, and XGBoost were explained using attention
 
 ## 📦 Model outputs <a name="outputs"></a>
 
-[Four_inventories_predict.csv](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/Four_inventories_predict.csv): This file contains the GAT model predictions for antibacterial activity of 92,946 chemicals collected from the industrial chemical inventories of China, the United States, Canada, and the European Union. Details about the QACs predicted as positive (n=856) from the combined industrial chemical database are provided in the Supplementary Information of the manuscript.
+[Four_inventories_predict.csv](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/code/Four_inventories_predict.csv): This file contains the GAT model predictions for antibacterial activity of 92,946 chemicals collected from the industrial chemical inventories of China, the United States, Canada, and the European Union. Details about the QACs predicted as positive (n=856) from the combined industrial chemical database are provided in the Supplementary Information of the manuscript.
 
-[DssTox_predict.csv](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/code/DssTox_predict.csv): This file contains the GAT model predictions for antibacterial activity of 791,623 chemicals from the [DSSTox database](https://epa.figshare.com/articles/dataset/DSSTox_v2000/8068211). Details about the QACs predicted as positive (n=3,851) within the DSSTox database can be found in the Supplementary Information of the manuscript.
+[DssTox_predict.csv](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/code/DssTox_predict.csv): This file contains the GAT model predictions for antibacterial activity of 791,623 chemicals from the [DSSTox database](https://epa.figshare.com/articles/dataset/DSSTox_v2000/8068211). Details about the QACs predicted as positive (n=3,851) within the DSSTox database can be found in the Supplementary Information of the manuscript.
 
 ---
 
 ## 🤝 Collaboration <a name="Collaboration"></a>
 
-Due to the limitations of the [training set (n=2928)](https://github.com/WestonSu/Antimicrobials/blob/main/GAT/data/Anti_plus_v2.csv), certain chemicals outside its applicability domain may not have ideal predictions for antibacterial activity. We welcome contributions from other researchers to supplement data on the growth inhibition of _E. coli_ by other chemicals. If you have any questions regarding this project, please contact wysu_st@rcees.ac.cn.
+Due to the limitations of the [training set (n=2,928)](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/data/Anti_plus_v2.csv), certain chemicals outside its applicability domain may not have ideal predictions for antibacterial activity. We welcome contributions from other researchers to supplement data on the growth inhibition of _E. coli_ by other chemicals. If you have any questions regarding this project, please contact wysu_st@rcees.ac.cn.
 
 ---
 

@@ -1,5 +1,5 @@
 # Persistent quaternary ammonium compounds in Chinese estuaries as key drivers of environmental resistome beyond antibiotics (unpublished paper)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8305808.svg)](https://doi.org/10.5281/zenodo.8305808)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8377281.svg)](https://doi.org/10.5281/zenodo.8377281)
 <p align="left">
 <img src="https://img.shields.io/badge/Jupyter-F37626.svg?style&logo=Jupyter&logoColor=white" alt="Jupyter" />
 <img src="https://img.shields.io/badge/Python-3776AB.svg?style&logo=Python&logoColor=white" alt="Python" />
@@ -75,7 +75,7 @@ miniconda3:4.5.11-python3.7-cuda9.2-cudnn7-ubuntu18.04
 | Function   | Description   |
 |:------ |:--------- |      
 | [XGBoost.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/3_XGBoost/XGBoost.ipynb) | The results for model training, evaluation, and prediction using XGBoost can be step-by-step reproduced by running 'XGBoost.ipynb'. |
-| [Anti.txt](https://github.com/WestonSu/Antimicrobials/blob/main/3_XGBoost/Anti.txt)           | SMILES of compounds in the training set (n=2928). |
+| [Anti.txt](https://github.com/WestonSu/Antimicrobials/blob/main/3_XGBoost/Anti.txt)           | SMILES of compounds in the training set (n=2,928). |
 | [Anti_MD.txt](https://github.com/WestonSu/Antimicrobials/blob/main/3_XGBoost/Anti_MD.txt)     | Molecular descriptors for compounds in the training set. |
 
 </details>
@@ -111,7 +111,7 @@ The model outputs of **GAT**, D-MPNN, and XGBoost were explained using attention
 
 ## 🤝 Collaboration <a name="Collaboration"></a>
 
-Due to the limitations of the [training set (n=2928)](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/data/Anti_plus_v2.csv), certain chemicals outside its applicability domain may not have ideal predictions for antibacterial activity. We welcome contributions from other researchers to supplement data on the growth inhibition of _E. coli_ by other chemicals. If you have any questions regarding this project, please contact wysu_st@rcees.ac.cn.
+Due to the limitations of the [training set (n=2,928)](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/data/Anti_plus_v2.csv), certain chemicals outside its applicability domain may not have ideal predictions for antibacterial activity. We welcome contributions from other researchers to supplement data on the growth inhibition of _E. coli_ by other chemicals. If you have any questions regarding this project, please contact wysu_st@rcees.ac.cn.
 
 ---
 

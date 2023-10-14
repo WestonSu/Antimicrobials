@@ -1,4 +1,4 @@
-# Persistent quaternary ammonium compounds in Chinese estuaries as key drivers of environmental resistome beyond antibiotics (unpublished paper)
+# Persistent quaternary ammonium compounds in Chinese estuaries are key drivers of antimicrobial resistance besides antibiotics (unpublished paper)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8377281.svg)](https://doi.org/10.5281/zenodo.8377281)
 <p align="left">
 <img src="https://img.shields.io/badge/Jupyter-F37626.svg?style&logo=Jupyter&logoColor=white" alt="Jupyter" />
@@ -122,7 +122,7 @@ Due to the limitations of the [training set (n=2,928)](https://github.com/Weston
 
 We ask users to directly cite the following paper:
 
-Su, W. et al. Persistent quaternary ammonium compounds in Chinese estuaries as key drivers of environmental resistome beyond antibiotics.
+Su, W. et al. Persistent quaternary ammonium compounds in Chinese estuaries are key drivers of antimicrobial resistance besides antibiotics.
 
 This project also builds on a number of other projects, algorithms and ideas. Please consider citing the following full list of papers when relevant: 
 

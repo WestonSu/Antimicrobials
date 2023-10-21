@@ -85,7 +85,7 @@ miniconda3:4.5.11-python3.7-cuda9.2-cudnn7-ubuntu18.04
 
 | Function   | Description   |
 |:------ |:--------- |      
-| [Applicability_Domain.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/4_Applicability_Domain/Applicability_Domain.ipynb) | Define the model’s applicability domain using the k-nearest neighbors variable selection method. |
+| [Applicability_Domain.ipynb](https://github.com/WestonSu/Antimicrobials/blob/main/4_Applicability_Domain/Applicability_Domain.ipynb) | Define the model’s applicability domain using the k-nearest neighbors variable selection method. The file contains SMILES representations for 50 structurally diverse antibacterial QACs that have been identified through mass spectrometric analysis, along with information about whether they fall within the model's applicability domain. |
 
 </details>
 

@@ -6,7 +6,6 @@
 <img src="https://img.shields.io/badge/RStudio-75AADB.svg?style&logo=RStudio&logoColor=white" alt="RStudio" />
 <img src="https://img.shields.io/badge/Markdown-000000.svg?style&logo=Markdown&logoColor=white" alt="Markdown" />
 <img src="https://img.shields.io/github/license/WestonSu/Antimicrobials?style&color=5D6D7E" alt="GitHub license" />
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 </p>
 
 This repository provides the code for machine learning models predicting the antibacterial activity of chemicals and all associated raw datasets. Two graph-based ML models (i.e., [Graph Attention Network (GAT)](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/code/Antibacterials.ipynb) and [Directed Message Passing Neural Networks (D-MPNN)](https://github.com/WestonSu/Antimicrobials/blob/main/2_DMPNN/DMPNN.ipynb)) and a descriptor-based model (i.e., [eXtreme Gradient Boosting (XGBoost)](https://github.com/WestonSu/Antimicrobials/blob/main/3_XGBoost/XGBoost.ipynb)) were selected to compare the predictive performance of different model architectures. **Ultimately, the [GAT](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/code/Antibacterials.ipynb) model performed best across five random splits of the dataset.**

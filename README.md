@@ -48,7 +48,8 @@ miniconda3:4.5.11-python3.7-cuda9.2-cudnn7-ubuntu18.04
     pyGPGO==0.4.0.dev1
     tensorboardX==1.6
     ```
-
+ 4. It is recommended to use Google Colaboratory, where you will avoid the hassle of installing complex dependencies. You only need to install condacolab and rdkit, and the installation will be completed within a few minutes.
+   
 ## 🚀 Quick start <a name="quickstart"></a>
 
 <details open><summary>Graph Attention Network (GAT)</summary>

@@ -122,7 +122,7 @@ Due to the limitations of the [training set (n=2,928)](https://github.com/Weston
 
 We ask users to directly cite the following paper:
 
-Su, W. et al. Persistent quaternary ammonium compounds in Chinese estuaries are key drivers of antimicrobial resistance besides antibiotics.
+Su, W. et al. Persistent quaternary ammonium compounds in Chinese estuaries are key drivers of antimicrobial resistance beyond antibiotics.
 
 This project also builds on a number of other projects, algorithms and ideas. Please consider citing the following full list of papers when relevant: 
 

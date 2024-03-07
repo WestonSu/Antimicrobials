@@ -104,9 +104,9 @@ The model outputs of **GAT**, D-MPNN, and XGBoost were explained using attention
 
 ## 📦 Model outputs <a name="outputs"></a>
 
-[Four_inventories_predict.csv](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/code/Four_inventories_predict.csv): This file contains the GAT model predictions for antibacterial activity of 92,946 chemicals collected from the industrial chemical inventories of China, the United States, Canada, and the European Union. Details about the QACs predicted as positive [(n=856)](https://github.com/WestonSu/Antimicrobials/blob/main/Figure%20S21/bokeh_plot_clusters.png) from the combined industrial chemical database are provided in the Supplementary Information of the manuscript.
+[Four_inventories_predict.csv](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/code/Four_inventories_predict.csv): This file contains the GAT model predictions for antibacterial activity of 92,946 chemicals collected from the industrial chemical inventories of China, the United States, Canada, and the European Union. Details about the QACs predicted as positive [(n=856)](https://github.com/WestonSu/Antimicrobials/blob/main/Figure%20S21/bokeh_plot_clusters.png) from the combined industrial chemical database are provided in the Supporting Information of the manuscript.
 
-[DssTox_predict.csv](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/code/DssTox_predict.csv): This file contains the GAT model predictions for antibacterial activity of 791,623 chemicals from the [DSSTox database](https://epa.figshare.com/articles/dataset/DSSTox_v2000/8068211). Details about the QACs predicted as positive (n=3,851) within the DSSTox database can be found in the Supplementary Information of the manuscript.
+[DssTox_predict.csv](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/code/DssTox_predict.csv): This file contains the GAT model predictions for antibacterial activity of 791,623 chemicals from the [DSSTox database](https://epa.figshare.com/articles/dataset/DSSTox_v2000/8068211). Details about the QACs predicted as positive (n=3,851) within the DSSTox database can be found in the Supporting Information of the manuscript.
 
 ![Model graphic](https://github.com/WestonSu/Antimicrobials/blob/main/Figure%20S21/bokeh_plot_clusters.png)
 

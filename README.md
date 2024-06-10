@@ -1,4 +1,4 @@
-# Occurrence and Distribution of Antibacterial Quaternary Ammonium Compounds in Chinese Estuaries Revealed by Machine Learning-Guided Mass Spectrometric Analysis (unpublished paper)
+# Occurrence and Distribution of Antibacterial Quaternary Ammonium Compounds in Chinese Estuaries Revealed by Machine Learning-Assisted Mass Spectrometric Analysis
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10389226.svg)](https://doi.org/10.5281/zenodo.10389226)
 <p align="left">
 <img src="https://img.shields.io/badge/Jupyter-F37626.svg?style&logo=Jupyter&logoColor=white" alt="Jupyter" />
@@ -122,7 +122,7 @@ Due to the limitations of the [training set (n=2,928)](https://github.com/Weston
 
 We ask users to directly cite the following paper:
 
-Su, W. et al. Occurrence and Distribution of Antibacterial Quaternary Ammonium Compounds in Chinese Estuaries Revealed by Machine Learning-Guided Mass Spectrometric Analysis.
+Su, W. et al. Occurrence and Distribution of Antibacterial Quaternary Ammonium Compounds in Chinese Estuaries Revealed by Machine Learning-Assisted Mass Spectrometric Analysis.
 
 This project also builds on a number of other projects, algorithms and ideas. Please consider citing the following full list of papers when relevant: 
 

@@ -114,7 +114,7 @@ The model outputs of **GAT**, D-MPNN, and XGBoost were explained using attention
 
 ## 🤝 Collaboration <a name="Collaboration"></a>
 
-Due to the limitations of the [training set (n=2,928)](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/data/Anti_plus_v2.csv), certain chemicals outside its applicability domain may not have ideal predictions for antibacterial activity. We welcome contributions from other researchers to supplement data on the growth inhibition of _E. coli_ by other chemicals. If you have any questions regarding this project, please contact wysu_st@rcees.ac.cn.
+Due to the limitations of the [training set (n=2,928)](https://github.com/WestonSu/Antimicrobials/blob/main/1_GAT/data/Anti_plus_v2.csv), certain chemicals outside its applicability domain may not have ideal predictions for antibacterial activity. We welcome contributions from other researchers to supplement data on the growth inhibition of _E. coli_ by other chemicals.
 
 ---
 

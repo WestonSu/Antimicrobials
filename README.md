@@ -122,7 +122,7 @@ Due to the limitations of the [training set (n=2,928)](https://github.com/Weston
 
 We ask users to directly cite the following paper:
 
-Su, W. et al. Occurrence and Distribution of Antibacterial Quaternary Ammonium Compounds in Chinese Estuaries Revealed by Machine Learning-Assisted Mass Spectrometric Analysis.
+Su, W. et al. Occurrence and Distribution of Antibacterial Quaternary Ammonium Compounds in Chinese Estuaries Revealed by Machine Learning-Assisted Mass Spectrometric Analysis. Environ. Sci. Technol. 2024, DOI: 10.1021/acs.est.4c02380
 
 This project also builds on a number of other projects, algorithms and ideas. Please consider citing the following full list of papers when relevant: 
 
